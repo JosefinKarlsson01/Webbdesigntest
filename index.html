@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name = "viewport" content="with=device-width, initial-scale=1.0">
+<title> SverigesEventsKalender</title>
+<link rel="stylesheet" type ="text/css" href= "style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"> 
+</head>
+</body> 
+  <section class="HEAD">
+  <nav>
+  <a href = "index.html"><img src ="IMG/Logga2.png" width ="180" height ="180"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-window-close" onclick="hideMenu()"></i> 
+    <ul> 
+        <li><a href= "file:///C:/Users/josef/Webbdesign/index.html">HEM</a></li>
+        <li><a href= "">KATEGORI</a></li>
+        <li><a href= "file:///C:/Users/josef/Webbdesign/Om%20oss.html">OM OSS</a></li>
+        <li><a href= "file:///C:/Users/josef/Webbdesign/Kontakt.html">KONTAKT</a></li>
+        <li><a href= "">FAQ</a></li>
+        <li><a href= "">LOGGA IN</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars"onclick="showMenu()"></i> 
+   </nav>
+
+  <div class="text-box">
+   <h1>Hitta, Utforska och Upplev</h1>
+   <p>Här hittar du ett stort utbud av evenemang i hela Sverige nära dig.
+    Utforska allt från dina <br> intressen till kunskap och håll dig uppdaterad
+    om vad som händer just nu <br> eller längre fram. Här kan du bland annat 
+    hitta populära evenemang, <br> nyheter, konserter, matcher, workshops och mycket mer.</p>
+   <a href="" class="hero-btn">Klicka här för att få mer information</a>
+</div>
+  </section > 
+
+  <!----Kategori----> 
+  <section class="Kategori">
+    <h1>Kategorier Att Välja Mellan</h1>
+    <p>Vilken kategori intresserar dig?</p>
+
+    <div class="row">
+        <div class="Kategori-col">
+            <h3>MOTORSPORT</h3>
+            <p>Här hittar ni alla typer av Sport med allt <br> från bollsporter till motorsport</p>
+        </div>
+        <div class="Kategori-col">
+            <h3>ÄVENTYR</h3>
+            <p>Här hittar ni alla typer av Äventyr med allt från populära 
+               destinationer till smultronställen nära dig.</p>
+        </div>
+        <div class="Kategori-col">
+            <h3>MUSIK</h3>
+            <p>Här hittar ni alla typer av Musik med allt från festivaler 
+               till konserter.</p>
+        </div>
+
+    </div>
+
+</section> 
+
+<!--Event-->
+
+<section class="Event">
+  <h1>Sista chansen för dessa biljetter</h1>
+  <p>Våra Event är till för alla i alla åldrar.</p>
+   
+  <div class="row">
+      <div class="Event-col">
+          <img src="IMG/LandoN.jpg" >
+          <div class="layer">
+              <h3>Göteborgs Grand Prix</h3>
+          </div>
+      </div>
+      <div class="Event-col">
+          <img src="IMG/boat.jpg" >
+          <div class="layer">
+              <h3>Stridsbåt åkning till en militäranläggning</h3>
+          </div>
+      </div>
+      <div class="Event-col">
+          <img src="IMG/BruceSpringsteen.png" >
+          <div class="layer">
+              <h3>Bruce Springsteen på Ullevi</h3>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+<!--Evenemang-->
+
+<section class="Evenemang">
+  <h1>Populära Event</h1>
+  <p>Här kan du hitta våra populära Event i dagsläget.</p>
+<div class="row">
+  <div class="Evenemang-col">
+      <img src="IMG/konsert.jpg">
+      <h3>Ed Sheeran Mathematics Tour</h3>
+      <p> Missa inte Ed Sheerans Mathematics Tour med både gamla och nya hits från 
+          albumet.</p>
+  </div>
+  <div class="Evenemang-col">
+      <img src="IMG/klattra.jpg">
+      <h3>Upzone By Night</h3>
+      <p> Är du redo för lite äventyr och utmaning? Missa då inte 
+          mörkerklättring med pannlampa i en upplyst park i olika färger.</p>
+  </div>
+  <div class="Evenemang-col">
+      <img src="IMG/soccer.jpg">
+      <h3>Mancheter United i Premier Legue</h3>
+      <p> Missa inte när Manchester United kommer till Ullevi</p>
+  </div>       
+</div>
+
+</section>
+
+<!----BOKA,  anmlan och biljetter----> 
+
+<section class="BOKA"> 
+
+  <h1> Anmäl Dig Och Boka Bland Våra Evenemang</h1>
+  <a href="" class="hero-btn">Anmälan och Biljetter</a>
+
+</section>
+
+<!--Om Oss-->   
+
+<!--- fotter--->
+
+<section class="footer">
+  <h4>Om Oss </h4>
+  <p>Vi är en eventsida med alla populära och tillgänliga event</p>
+  <div class="icons">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-snapchat-square"></i>
+  </div>
+  <p>Gjord av Grupp 5 </p> 
+</section>
+
+</section>
+
+  
+<!----JavaScript for Toggle Menu----> 
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+    
+
+
+
+
+
+</body>
+</html> 

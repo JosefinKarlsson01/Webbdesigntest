@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name = "viewport" content="with=device-width, initial-scale=1.0">
+<title> SverigesEventsKalender</title>
+<link rel="stylesheet" type ="text/css" href= "style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+</body> 
+  <section class="sub-head">
+  <nav>
+  <a href = "index.html"><img src ="IMG/Logga2.png" width ="180" height ="180"></a>
+  <div class="nav-links" id="navLinks">
+    <i class="fa fa-window-close" onclick="hideMenu()"></i> 
+    <ul> 
+        <li><a href= "file:///C:/Users/josef/Webbdesign/index.html">HEM</a></li>
+        <li><a href= "">KATEGORI</a></li>
+        <li><a href= "file:///C:/Users/josef/Webbdesign/Om%20oss.html">OM OSS</a></li>
+        <li><a href= "file:///C:/Users/josef/Webbdesign/Kontakt.html">KONTAKT</a></li>
+        <li><a href= "">FAQ</a></li>
+        <li><a href= "">LOGGA IN</a></li>
+
+      </ul>
+    </div>
+    <i class="fa fa-bars"onclick="showMenu()"></i> 
+   </nav>
+   <h1> OM OSS </h1>
+
+  </section> 
+ 
+<!--Om Oss content-->
+
+<section class="om-oss">
+
+  <div class="row">
+      <div class="om-col">
+          <h1>Tillsammans skapar vi minnesvärda upplevelser</h1>
+          <p>Sverigeseventskalender är Sveriges officiella eventguide. 
+            Den är till för alla intresserade som vill lära sig
+            och uppleva något nytt eller för dem som vill främja sina intressen.<br>
+            Utforska vad hela landet har att erbjuda här.</p>
+              <a href="" class="hero-btn red-btn">UTFORSKA NU</a>
+
+               
+
+              <h2>Vilka är vi? <h2>
+                <p>Webbplatsen är gjord av Grupp 5 i Webbdesign, gruppen består av 5 individer med olika passioner med ett gemensamt mål. 
+                  Vi vill främja platser för alla med deras olika intressen.
+                  Sverigeseventskalender vill hålla dig uppdaterad kring vad som händer runt om i landet så att ni inte missar chansen att delta.
+                 Där människor kan dela spännande, lärorika och minnensvärda stunder tillsammans 
+                 vare sig det är en konsert, konstutställning eller ett äventyr för hela familjen.
+                 Vi är här för att underlätta och se till allt sker på säkert sätt utan krångel.
+              Vi gör det för hela Sverige</p>   
+      </div>
+      <div class="om-col"></div>
+          <img src="IMG/sverige.jpg" >
+     </div> 
+</section>
+
+<!--Footer-->
+<section class="footer">
+  <h4>Om Oss </h4>
+  <p>Vi är en eventsida med alla populära och tillgänliga event</p>
+  <div class="icons">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-snapchat-square"></i>
+  </div>
+
+  <p>Gjord av Grupp 5 </p>
+
+ 
+</section>
+
+  
+<!----JavaScript for Toggle Menu----> 
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+    
+
+
+</body>
+</html> 
